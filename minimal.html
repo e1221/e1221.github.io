@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  		<link href="https://fonts.googleapis.com/css?family=Sura&display=swap" rel="stylesheet">
+  		<link href="assets/css/style.css" rel="stylesheet">
+  		<meta charset="utf-8">
+  		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+  </head>
+  <body>
+  	<div id = "home-page">
+  		<nav class="navbar">
+		    <ul class="nav-links">
+		    	<li class="nav-item"><a href="index.html">Home.</a></li>
+		      <li class="nav-item"><a href="minimal.html">Minimal.</a></li>
+
+		      <li class="nav-item"><a href="chic.html">Chic.</a></li>
+		      <li class="nav-item"><a href="edgy.html">Edgy.</a></li>
+		    </ul>
+  		</nav>
+		 <div class="carousel">
+		 	<div class="flip-card">
+	  			<div class="flip-card-inner">
+		    		<div class="flip-card-front">
+		    			<img src = "assets/img/minimal.jpg" alt ="" width="500" height="600">
+		    		</div>
+				    <div class="flip-card-back">
+				      <p>With simple colors and smooth textures, this outfit is perfect for any occasion, from going to work to a casual day at home. This outfit consists of a classic white button-up, casually tucked into trousers. The gold details on the collar add a nice accent of color and texture into the plain outfit. Loose-fitting trousers also accentuate your waist and make your legs look longer. </p>
+				    </div>
+		  		</div>
+			</div>
+
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+					<img src = "assets/img/m4.jpg" alt ="" width="500" height="600">
+					</div>
+					<div class="flip-card-back">
+					<p>This outfit consists of a plain white t-shirts and blue, dark-wash jeans. The highlight of this outfit are the red accents. This outfit is paired with red ballet flats, which matches with the heart outline on the t-shirt. This look is finished out with a plain black shoulder bag and coat. </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+					<img src = "assets/img/m3.jpg" alt ="" width="500" height="600">
+					</div>
+					<div class="flip-card-back">
+					<p>This cozy, minimal outfit consists of a baggy, oversized sweatshirt and dark-washed skinny jeans. Paired with comfortable tennis shoes, this outfit is perfect for a cozy, relaxing day. </p>
+					</div>
+				</div>
+			</div>
+<!-- 	    	<div>
+	    		<img src = "assets/img/m3.jpg" alt ="" width="500" height="600">
+	    	</div> -->
+  		</div>	
+	</div>
+
+	 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<script type="text/javascript" src="slick/slick.min.js"></script>
+  	<script type="text/javascript">
+  	$(document).ready(function(){
+  	$('.carousel').slick({
+  		// setting-name: setting-value
+  		arrows:false,
+  		dots: true,
+  		centerMode: true
+  	});
+	});
+  	</script>
+  	<!-- <script type="text/javascript">
+  		$('.center').slick({
+  		centerMode: true,
+  		centerPadding: '60px',
+  		slidesToShow: 3,
+  		responsive: [
+    {
+      	breakpoint: 768,
+      	settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      	breakpoint: 480,
+      	settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+  	</script> -->
+  </body>
+</html>
+
+

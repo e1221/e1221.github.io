@@ -1,0 +1,79 @@
+body {
+	margin:0;
+	background: #222;
+	font-family: "Sura", serif;
+	font-weight: normal;
+}
+
+/*.container {
+	width: 80%;
+	margin: 0 auto;
+}*/
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.navbar {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: darkgreen;
+}
+#content .navbar-item{
+	margin-right: 20px;
+}
+#content .navbar-item:hover {
+	opacity: 1;
+/*}
+header {
+	background: #55d6aa;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}*/
+/* Add a black background color to the top navigation */
+/*.topnav {
+  background-color: #333;
+  overflow: hidden;
+}*/
+
+/* Style the links inside the navigation bar */
+/*.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}*/
+
+/* Change the color of links on hover */
+/*.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}*/
+
+/* Add a color to the active/current link */
+/*.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}*/
