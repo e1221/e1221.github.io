@@ -102,10 +102,9 @@ ul li {
   perspective: 1000px; 
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
-  width: 70%;
+  width: 50%;
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
